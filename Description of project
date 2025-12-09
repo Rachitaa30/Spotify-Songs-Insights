@@ -1,0 +1,47 @@
+Tech Stack & Tools
+| Component            | Technology                                           |
+| -------------------- | ---------------------------------------------------- |
+| Language             | Python                                               |
+| Data Sources         | Spotify API / Kaggle Dataset                         |
+| Libraries            | Pandas, NumPy, Requests, Matplotlib, Seaborn, Plotly |
+| Optional GUI/Visuals | Tableau / Power BI                                   |
+
+Dataset
+You can use either:
+Spotify API (Spotify Web API + Spotipy library)
+Kaggle dataset: “Spotify Tracks Dataset” or “Top 50 Spotify Songs”
+Dataset link not included due to GitHub rules. Search on Kaggle for: Spotify Tracks Dataset.
+
+Project Workflow
+1. Data Collection
+Extract track details (artist, genre, release year, features) from Spotify API
+Download dataset for additional features
+
+2. Data Cleaning & Preparation
+Handle missing values
+Normalize units (duration to minutes, loudness scale, etc.)
+
+3. Exploratory Data Analysis (EDA)
+Feature distributions (tempo, energy, danceability)
+Top artists by popularity
+Genre-wise audio feature profile
+Trends by year
+
+4. Correlation & Statistical Insights
+Correlation heatmap
+Popularity vs. tempo, loudness, valence
+
+5.Visualization
+Line charts for trends
+Scatter plots for relationships
+Bar charts for artists & genre analysisProject Workflow
+
+Future Improvements
+Build ML model to predict song popularity
+Create interactive dashboard (Power BI / Tableau / Plotly Dash)
+Deploy a web app recommending songs based on audio features
+
+installation 
+git clone https://github.com/your-username/spotify-songs-insights
+cd spotify-songs-insights
+pip install -r requirements.txt
